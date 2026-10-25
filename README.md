@@ -22,5 +22,3 @@ The selected policy examples and implementation guide in this repository are der
 ## Important
 
 These policy files are provided as examples and are copied as-is. Review every action and resource carefully and test in a safe AWS environment before attaching them to users or groups.
-# aws-iam-access-control
-Selected IAM policy examples and implementation guide, with original project attribution.
