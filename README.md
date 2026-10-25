@@ -19,6 +19,6 @@ aws-iam-access-control/
 
 The selected policy examples and implementation guide in this repository are derived from [VanshPatyal/aws-iam-access-control-project](https://github.com/VanshPatyal/aws-iam-access-control-project) and are included with permission. This repository contains only selected files, not the complete original project.
 
-## Important
+## Important policy warning
 
-These policy files are provided as examples and are copied as-is. Review every action and resource carefully and test in a safe AWS environment before attaching them to users or groups.
+The included policy JSON files are copied as provided, but their actual permissions do not match some filenames and descriptions: `ec2-support-policy.json` allows `ec2:*`; `ec2-admin-policy.json` allows S3 list/get actions; and `s3-support-policy.json` allows EC2 describe actions. Do not attach these policies as-is. Review and test every action and resource in a safe AWS environment first.
